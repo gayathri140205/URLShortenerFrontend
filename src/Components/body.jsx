@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import axios from "axios";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import ToastContext from "./context/ToastContext";
-const API = "https://url-shortner-be-7br0.onrender.com";
+const API = "https://urlshortenerbackend-j39w.onrender.com";
 
 const Body = () => {
   const { toast } = useContext(ToastContext);
